@@ -1,0 +1,65 @@
+body {
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    border: 4px hotpink solid;
+    border-radius: 25px;
+    background-color: hotpink;
+    width: 20em;
+    text-align: center;
+    /* padding: 2em; */
+    margin: 1em;
+}
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card p {
+    margin: 1em;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    background-color: lavenderblush;
+    color: hotpink;
+    text-align: center;
+    padding: 1em;
+}
+
+.pricing {
+    border: 1px hotpink solid;
+    margin: 3px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.specs {
+    border: 1px hotpink solid;
+    margin: 3px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.card h2 {
+    border: 1px lightblue solid;
+    border-radius: 5px;
+    background-color: gainsboro;
+}
+
+.card footer {
+    font-size: 10px;
+    margin-bottom: 1em;
+}
+
+h4 {
+    background-color: lavenderblush;
+}
