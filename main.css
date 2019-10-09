@@ -1,12 +1,13 @@
 body {
-    background-color: gainsboro;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
 }
 
 .card {
     border: 4px hotpink solid;
     border-radius: 25px;
     background-color: hotpink;
+    color: white;
     width: 20em;
     text-align: center;
     /* padding: 2em; */
@@ -29,10 +30,12 @@ img {
 }
 
 h1 {
-    background-color: lavenderblush;
-    color: hotpink;
+    background-color: hotpink;
+    color: lightpink;
+    margin: 0px;
     text-align: center;
     padding: 1em;
+    width: 100%;
 }
 
 .pricing {
@@ -50,9 +53,9 @@ h1 {
 }
 
 .card h2 {
-    border: 1px lightblue solid;
     border-radius: 5px;
-    background-color: gainsboro;
+    background-color: lightpink;
+    color: white;
 }
 
 .card footer {
@@ -61,5 +64,5 @@ h1 {
 }
 
 h4 {
-    background-color: lavenderblush;
+    background-color: lightpink;
 }
